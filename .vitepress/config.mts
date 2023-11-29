@@ -4,6 +4,7 @@ import { DefaultTheme, defineConfig } from "vitepress";
 export default defineConfig({
   title: "ScanReach Docs",
   description: "ScanReach Documentation and user manuals",
+  base: "/ScanReach.Documentation/", // TODO: Change to proper base URL once deployed
 
   cleanUrls: true,
   lastUpdated: true,
