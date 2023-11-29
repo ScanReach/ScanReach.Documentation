@@ -1,1 +1,0 @@
-# ScanReach Generic API Documentation

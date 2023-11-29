@@ -3,7 +3,7 @@ import { DefaultTheme, defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ScanReach Docs",
-  description: "ScanReach Documentation and user manuals",
+  description: "ScanReach documentation and user manual",
   base: "/ScanReach.Documentation/", // TODO: Change to proper base URL once deployed
 
   cleanUrls: true,
@@ -20,12 +20,7 @@ export default defineConfig({
     },
     nav: nav(),
 
-    sidebar: {
-      "/documentation/": {
-        base: "/documentation/",
-        items: sidebar(),
-      },
-    },
+    sidebar: sidebar(),
 
     socialLinks: [
       // { icon: "github", link: "https://github.com/vuejs/vitepress" },
@@ -43,9 +38,9 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     { text: "Home", link: "/" },
     {
-      text: "Documentation",
-      link: "/documentation/introduction",
-      activeMatch: "/documentation/",
+      text: "Docs",
+      link: "/docs/introduction",
+      activeMatch: "/docs/",
     },
   ];
 }
@@ -53,21 +48,21 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "Introduction",
-      link: "introduction",
+      text: "ScanReach Introduction",
+      link: "/docs/introduction",
     },
     {
       text: "OWC",
       collapsed: false,
       items: [
-        { text: "Introduction", link: "/OWC/introduction" },
-        // { text: "Runtime API Examples", link: "/api-examples" },
+        { text: "Introduction", link: "/docs/OWC/introduction" },
+        // { text: "Runtime API Examples", link: "/docs/api-examples" },
         {
           text: "API",
           items: [
             {
               text: "API Getting Started",
-              link: "/OWC/api/api-getting-started",
+              link: "/docs/OWC/api/api-getting-started",
             },
           ],
         },
@@ -78,20 +73,26 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       docFooterText: "ConnectPOB",
       items: [
-        { text: "Introduction", link: "/ConnectPOB/introduction" },
+        {
+          text: "ConnectPOB Introduction",
+          link: "/docs/ConnectPOB/introduction",
+        },
         {
           text: "Handling of information",
-          link: "/ConnectPOB/handling-of-information",
+          link: "/docs/ConnectPOB/handling-of-information",
         },
-        // { text: "Runtime API Examples", link: "/api-examples" },
+        // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
     },
     {
       text: "ConnectFleet",
       collapsed: false,
       items: [
-        { text: "Introduction", link: "/ConnectFleet/introduction" },
-        // { text: "Runtime API Examples", link: "/api-examples" },
+        {
+          text: "ConnectFleet Introduction",
+          link: "/docs/ConnectFleet/introduction",
+        },
+        // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
     },
   ];

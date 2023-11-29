@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "ScanReach Documentation"
-  text: "ScanReach Documentation and user manuals"
+  name: "ScanReach Docs"
+  text: "ScanReach Docs and user manuals"
   tagline: Enabling wireless connectivity for the maritime industry
   actions:
     - theme: brand
-      text: Documentation
-      link: /documentation/introduction
+      text: Documentation & User Manual
+      link: /docs/introduction
     - theme: alt
       text: Homepage
       link: https://scanreach.com

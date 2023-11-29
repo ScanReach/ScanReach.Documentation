@@ -1,8 +1,8 @@
-# ScanReach.Documentation
+# ScanReach.Docs
 
 A modern user manual written as a website using raw Markdown and Vitepress.
 
-Currently hosted at https://scanreach.github.io/ScanReach.Documentation/
+Currently hosted at https://scanreach.github.io/ScanReach.Docs/
 
 Vitepress docs: https://vitepress.dev/guide/what-is-vitepress
 
@@ -24,4 +24,4 @@ Vitepress docs: https://vitepress.dev/guide/what-is-vitepress
 
 ## Edit files
 
-All files are located in the `documentation` folder
+All files are located in the `docs` folder
