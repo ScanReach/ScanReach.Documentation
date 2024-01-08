@@ -2,7 +2,7 @@
 
 A modern user manual written as a website using raw Markdown and Vitepress.
 
-Currently hosted at [https://scanreach.github.io/ScanReach.Docs/](https://scanreach.github.io/ScanReach.Documentation/)
+Currently hosted at [https://scanreach.github.io/ScanReach.Documentation/](https://scanreach.github.io/ScanReach.Documentation/)
 
 Vitepress docs: https://vitepress.dev/guide/what-is-vitepress
 
