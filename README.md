@@ -25,3 +25,7 @@ Vitepress docs: https://vitepress.dev/guide/what-is-vitepress
 ## Edit files
 
 All files are located in the `docs` folder
+
+## Show new file in sidebar:
+
+Open `.vitepress/config.mts` and add the file to the `sidebar` array in appropriate place
