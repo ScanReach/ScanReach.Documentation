@@ -85,6 +85,10 @@ function sidebar(): DefaultTheme.SidebarItem[] {
           text: "Personnel administration",
           link: "/docs/ConnectPOB/personnel-administration",
         },
+        {
+          text: "Mustering",
+          link: "/docs/ConnectPOB/mustering",
+        },
         // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
     },
