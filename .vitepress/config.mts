@@ -89,6 +89,10 @@ function sidebar(): DefaultTheme.SidebarItem[] {
           text: "Mustering",
           link: "/docs/ConnectPOB/mustering",
         },
+        {
+          text: "Manage Nodes",
+          link: "/docs/ConnectPOB/manage-nodes",
+        },
         // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
     },

@@ -2,147 +2,60 @@
 
 The mustering functionality is created to help the vessel with their own Mustering training or real world scenarios. The mustering functionality will give the user a quick overview of the location of all personnel and if they have arrived at the registered Muster Stations
 
-## Desktop Components
+## Configure nodes as muster stations
 
-### Node Admin page
+1. Go to "Manage Nodes" in the left menu
+2. Select the node you want to configure as a muster station -> Click "manage"
+3. Toggle "Muster Station" to YES
+4. Define "Mustering Retention level (dB)" for this node
 
-Node Admin show all nodes in a table and where they are placed on the map. This is also where it is possible to set up a node as Muster station and Muster station with muster box
+::: tip
+The retention level is how "sticky" the node will be after a person has been seen by that node. The higher the retention level, the closer you must be nearby nodes to be picked up by them.
 
-![Node Admin page](mustering-images/node-admin/node-admin-page.png)
+This is useful if you have a muster station that is close to another node inside the vessel, to avoid personnel "leaking" to nearby nodes.
+:::
 
-#### Node Admin Table
+5. If you want to configure the node as a Muster Station with Muster Box, toggle "Tap on muster-box to muster" to YES and define required signal strength for a wearable to be detected by the muster box.
 
-Shows all nodes distrubted between, Nodes located in the map and Nodes not in map.
+## Start mustering
 
-![Node Admin Table](mustering-images/node-admin/node-admin-table.png)
-<br/>
+To start mustering toggle the "mustering" toggle top right. In the modal you can:
 
-Press the icon to request a new update of the nodes. If a configuration is not as you expect, this can be a good first step to see if the configuration will update
-![OWC status refresh](mustering-images/node-admin/owc-status.png)
-<br/>
+- Add a comment
+- Define the mustering as a drill
 
-Headings for the different sections showing the number of nodes in each section
-![Nodes located in map](mustering-images/node-admin/nodes-located-in-map.png)
-<br/>
+This comment and whether the mustering is a drill or not will be visible in ConnectFleet.
 
-![Nodes not placed in map](mustering-images/node-admin/nodes-not-in-map.png)
-<br/>
+## During mustering
 
-Node admin table header
-![Node admin table header](mustering-images/node-admin/node-admin-table-headers.png)
+During mustering you will be presented with a list of:
 
-- It is possible to sort Node name both decending and acending
-- This icon indicates time
-- This icon idicates signal strength
-  <br/>
-  <br/>
+- All personnel that are not accounted for
+- All personnel that are accounted for
+- All distress alarms
 
-![Node admin table item](mustering-images/node-admin/node-admin-table-item.png)
+![Alt text](mustering-overview.png)
 
-- Staus Icon that show the status of the node
-  - ![Node status blue](mustering-images/node-admin/node-status-blue.png)Blue - All is ok
-  - ![Node status orange](mustering-images/node-admin/node-status-orange.png) Orange - There is an issue attached to the node
-  - ![Node status grey](mustering-images/node-admin/node-status-grey.png) Grey - Node is not placed in map
-- "Corridor" - The given name of the node
-- "00:12:4b:00:1e:1d:f1:44" - Mac address of the node
-- ![Speaker icon](mustering-images/node-admin/speaker-icon.png)A icon to idicate what roles the node has been set to. There will only be one icon show even though the node has more than one role. Click on node to see all the roles a node has. The possible icons are:
+- A: What mustering mode you are in:
+  - Auto Muster ON - The system will automatically set personnel as accounted for when they arrive at a muster station
+  - Auto Muster OFF - Requires personnel to either manually register on a MusterBox or being manually toggled to accounted for by an operator
+- B: The time since the mustering started
+- C: Progress bar showing number of people accounted for vs number of people not accounted for
+- D and G: Detailed list showing name and role of Not Accounted (or Accounted for) For personnel and their location
+- E: Toggle for manually registering a person as accounted for, regardless of their location. Useful if person forgot wearable or is on a rescue mission.
+- F: Location status:
+  - Orange + Node Icon: This person's wearable has an issue and the Location is uncertain, will show time since last observed at that Location
+  - Grey + Node Icon: Person is detected at a node that is not a Muster Station
+  - Green + Mustering Icon: Person is detected at a Muster station and will be automatically Accounted For when "Auto Muster" is "ON". It also gives a good indication on who can be Manually Registered when "Auto Muster" is OFF.
+- H: Selecting a person will show that person's details.
+- I: List of personnel in distress
 
-  - None
-  - ![Root icon](mustering-images/node-admin/root-icon.png)This node is set up as the Root node. This means that this node is the parent node and is connected to the gateway. This is the basis for setting up all other nodes. They will report to this through their own network
-  - ![Modbus icon](mustering-images/node-admin/modbus-icon.png) ![Modbus icon orange](mustering-images/node-admin/modbus-icon-orange.png)This node is set up as a Modbus sensor
-  - ![Muster icon](mustering-images/node-admin/muster-icon.png) ![Muster icon orange](mustering-images/node-admin/muster-icon-orange.png)This node is set up as a Muster station
-  - ![Speaker icon](mustering-images/node-admin/speaker-icon.png) This node is set up as a Alarm node
-  - There is two colours a task icon can have:
-    - Blue - All is ok
-    - Orange configuration is being applied
+### Manually register during mustering
 
-- "1m" - This is the time since the system last had a report from this node
-- ![Signal strengt icon](mustering-images/node-admin/signal-icon.png) This icon indicates how good the signal strength is to the parent node in the mesh network
-  <br/>
-  <br/>
+To manually register a person as accounted for, click the toggle next to the person's name. This will change the toggle to active and the person will be moved to the "Accounted For" list.
 
-#### Node Admin Table Item Details
+### Manually register disembarked personnel during mustering
 
-Shows the extended information that is attached to the node
-![Node Admin Table item details](mustering-images/node-admin/node-admin-table-selected-node-details.png)
+Use the search bar to search for the person's name. Press the "Manually register" toggle on the desired person and the person will be moved to the "Accounted For" list.
 
-- Node roles shows what the Node is configured as. The possible values here are
-  - "This node has no roles"
-  - ![Alarm node pill](mustering-images/node-admin/alarm-node-pill.png)
-  - ![Muster station node pill](mustering-images/node-admin/muster-station-node-pill.png)
-  - ![Muster station with muster box pill](mustering-images/node-admin/muster-station-node-with-muster-box-pill.png) ![Muster station with muster box applying pill](mustering-images/node-admin/muster-station-with-muster-box-applying-pill.png)
-  - ![Modbus node pill](mustering-images/node-admin/modbus-node-pill.png) ![Modbus node pill applying](mustering-images/node-admin/modbus-node-pill-applying.png)
-  - ![Gangway node pill](mustering-images/node-admin/gangway-node-pill.png)
-  - ![Root node pill](mustering-images/node-admin/root-node-pill.png)
-  - The orange ones with "Applying" text indicates that the configuration is in the process of being applied. If this status persist, make sure that the correct equipment is connected to the node. Else contact scanreach support and we will help you with the problem.
-- Node roles shows what the Node is configured as. The possible values here are
-
-#### Node Details
-
-### Initiate Muster Toggle
-
-#### Start Mustering Pop up
-
-#### Stop Mustering Pop up
-
-### Safety Page
-
-### Searchbar
-
-### Mustering Stats
-
-#### Auto Muster Toggle
-
-##### Auto Muster Toggle Pop up
-
-#### Timer
-
-#### Mustering bar
-
-### Sections
-
-#### Not Accounted For
-
-#### Accounted For
-
-#### Distress Alarms
-
-### Section Items
-
-#### Accpinted for / Not Accounted for Personnel Item
-
-#### Distress alarm Item
-
-#### Searchbar Item
-
-#### Personnel Item
-
-##### During Mustering
-
-###### Manually reigster personnel not Embarked Pop up
-
-##### Normally
-
-#### Node Item
-
-### Node Details List
-
-## Tablet Components
-
-## How too:
-
-### Setting up a Muster Station
-
-### Initiate Muster
-
-### Switch Auto Muster to ON/OFF
-
-### Search for Personnel, Wearables or Nodes
-
-### Manually Register Personnel
-
-### Manually Register Personnel by Search
-
-### Handling Distress Alarms
-
-## FAQ
+- The person will still stay disembarked/dropped off until the person is assigned a wearable and marked as embarked in ConnectPOB or in external crew management system.
