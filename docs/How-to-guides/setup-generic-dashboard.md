@@ -14,7 +14,7 @@ If you are opening the page for the first time there will be a default board cal
 
 Before creating a new dashboard, view the list you already have and inspect all the different boards to reduce the chance of creating duplicates.
 
-### Create New Dashboard
+## Create New Dashboard
 
 1\. Click the "NEW BOARD" to add another board to your list.
 
