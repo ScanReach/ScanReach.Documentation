@@ -107,5 +107,20 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
     },
+    {
+      text: "How to guides",
+      collapsed: false,
+      items: [
+        {
+          text: "Introduction",
+          link: "/docs/How-to-guides/introduction",
+        },
+        {
+          text: "Setting up a generic dashboard",
+          link: "/docs/How-to-guides/setup-generic-dashboard",
+        },
+        // { text: "Runtime API Examples", link: "/docs/api-examples" },
+      ],
+    },
   ];
 }
