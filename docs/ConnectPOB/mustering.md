@@ -34,7 +34,7 @@ During mustering you will be presented with a list of:
 - All personnel that are accounted for
 - All distress alarms
 
-![Alt text](mustering-overview.png)
+![Alt text](mustering-images/mustering-overview.png)
 
 - A: What mustering mode you are in:
   - Auto Muster ON - The system will automatically set personnel as accounted for when they arrive at a muster station
