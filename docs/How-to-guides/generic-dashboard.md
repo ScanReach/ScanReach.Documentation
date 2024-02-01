@@ -1,4 +1,4 @@
-# Setting up a generic dashboard
+# Generic dashboard setup
 
 This guide provides step-by-step instructions on how to create a dashboard with multiple widgets. It covers creating a new board, adding and editing widgets, and customising titles and descriptions. By following this guide, users can easily create a personalised dashboard to visualise data and monitor various metrics in one place.
 
