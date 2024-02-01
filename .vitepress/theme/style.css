@@ -137,6 +137,80 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * System colors
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --color-base-ui: #16272d;
+  --color-background-ui: #121c20;
+  --color-ui-01: #0e191c;
+  --color-ui-02: #172327;
+  --color-ui-03: #192b31;
+  --color-ui-04: #1d2c33;
+  --color-ui-05: #1c3138;
+  --color-ui-06: #102025;
+  --color-base-brand: #2be9c8;
+  --color-brand-01: #8ba6a6;
+  --color-brand-02: #236b67;
+  --color-brand-03: #5c686c;
+  --color-brand-04: #29373c;
+  --color-brand-05: #18454f;
+  --color-brand-06: #64bfb1;
+  --color-brand-07: #a8e2e2;
+  --color-pop-01: #0cebff;
+  --color-pop-02: #24bcca;
+  --color-pop-03: #2291a0;
+  --color-pop-03-opaque: rgba(34, 145, 160, 0.05);
+  --color-base-white: #eef6f7;
+  --color-status-alarm: #eb281b;
+  --color-status-alarm-25: rgba(235, 40, 27, 0.25);
+  --color-status-severe: #ff6b00;
+  --color-status-severe-25: rgba(245, 125, 14, 0.25);
+  --color-status-warning: #ffd100;
+  --color-status-warning-25: rgba(255, 209, 0, 0.25);
+  --color-status-alert: #c69c4d;
+  --gradient-skeuomorph: linear-gradient(180deg, #646464 0%, #ececec 100%);
+  --cubic-pop: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --transition-speed: 0.2s;
+}
+
+/**
+ * General styles
+ * -------------------------------------------------------------------------- */
+
 img {
   object-fit: contain;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px auto;
+}
+.flex-coloumn {
+  flex-direction: column;
+}
+
+.component-image {
+  margin: 16px auto;
+  width: 100%;
+}
+
+.img-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.list-no-bullet-points {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.icon-color-alert {
+  color: var(--color-status-alert);
 }

@@ -85,6 +85,14 @@ function sidebar(): DefaultTheme.SidebarItem[] {
           text: "Personnel administration",
           link: "/docs/ConnectPOB/personnel-administration",
         },
+        {
+          text: "Mustering",
+          link: "/docs/ConnectPOB/mustering",
+        },
+        {
+          text: "Manage Nodes",
+          link: "/docs/ConnectPOB/manage-nodes",
+        },
         // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
     },
@@ -95,6 +103,21 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         {
           text: "ConnectFleet Introduction",
           link: "/docs/ConnectFleet/introduction",
+        },
+        // { text: "Runtime API Examples", link: "/docs/api-examples" },
+      ],
+    },
+    {
+      text: "How to guides",
+      collapsed: false,
+      items: [
+        {
+          text: "Introduction",
+          link: "/docs/How-to-guides/introduction",
+        },
+        {
+          text: "Generic dashboard setup",
+          link: "/docs/How-to-guides/generic-dashboard",
         },
         // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
