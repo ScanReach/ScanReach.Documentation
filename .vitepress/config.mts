@@ -117,7 +117,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         },
         {
           text: "Setting up a generic dashboard",
-          link: "/docs/How-to-guides/setup-generic-dashboard",
+          link: "/docs/How-to-guides/generic-dashboard",
         },
         // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
