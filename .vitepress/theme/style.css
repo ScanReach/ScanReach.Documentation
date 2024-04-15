@@ -211,6 +211,14 @@ img {
   margin-bottom: 16px;
 }
 
+.list-no-bullet-points > img {
+  max-width: 150px;
+}
+
+.list-with-extra-padding {
+  padding-bottom: 60px;
+}
+
 .icon-color-alert {
   color: var(--color-status-alert);
 }
