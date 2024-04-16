@@ -4,7 +4,14 @@
   "ignorePaths": [],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": ["documate", "vitepress"],
+  "words": [
+    "borderrouter",
+    "documate",
+    "musterstation",
+    "musterstations",
+    "RSSI",
+    "vitepress"
+  ],
   "ignoreWords": [],
   "import": [],
   "language": "en-GB",
