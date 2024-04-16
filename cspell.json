@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": ["documate", "vitepress"],
+  "ignoreWords": [],
+  "import": [],
+  "language": "en-GB",
+  "enableFiletypes": []
+}
