@@ -198,7 +198,7 @@ Opened by pressing the "Debug" button in the [Node List Table Item Details ( J )
 
 #### MDT - Node data 1
 
-This is the BLE (Bluetooth Low Energy) Micro Controller Unit in the node that handles bluetooth communication between equpiment it detects (Wearables and bluetooth sensors). Time since updates every 3 minutes.
+This is the BLE (Bluetooth Low Energy) MCU (Micro Controller Unit) in the node that handles bluetooth communication between equpiment it detects (Wearables and bluetooth sensors). Time since updates every 3 minutes.
 
 | List item                       | Explanation                                                                                                           |
 | :------------------------------ | :-------------------------------------------------------------------------------------------------------------------- |
@@ -218,7 +218,7 @@ This is the BLE (Bluetooth Low Energy) Micro Controller Unit in the node that ha
 
 #### MDT - Node data 2
 
-This is the Mesh Micro Controller Unit. This is the chip in the node that handles the communication between nodes. Time since updates every 3 minutes.
+This is the Mesh MCU (Micro Controller Unit). This is the chip in the node that handles the communication between nodes. Time since updates every 3 minutes.
 
 | List item         | Explanation                                                                                          |
 | :---------------- | :--------------------------------------------------------------------------------------------------- |
