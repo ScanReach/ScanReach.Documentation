@@ -139,7 +139,7 @@ When clicking a node item this extended information that is attached to the node
 
 ## Node manager
 
-Opened by pressing the "Manag" button in the Node List Table Item Details [I](#node-list-table-item-details). This is where a user can place a node in the map, change location of a placed node, set a node as muster station with or without a muster box, set retention and/or sensitivity level for muster station and muster box and lastly set a node as a Alarm node.
+Opened by pressing the "Manag" button in the [Node List Table Item Details ( I )](#node-list-table-item-details). This is where a user can place a node in the map, change location of a placed node, set a node as muster station with or without a muster box, set retention and/or sensitivity level for muster station and muster box and lastly set a node as a Alarm node.
 
 <div class="img-container">
 <img src="./node-admin-images/node-manager-images/node-manager.png" alt="Node manager"/>
@@ -171,7 +171,7 @@ Opened by pressing the "Manag" button in the Node List Table Item Details [I](#n
 
 ## Mesh Debug Tool (MDT)
 
-Opened by pressing the "Debug" button in the Node List Table Item Details [(J)](#node-list-table-item-details). This is a tool for admin users or ScanReach to use during debugging or internal testing. We will break down the image into sections and explain each point in the list.
+Opened by pressing the "Debug" button in the [Node List Table Item Details ( J )](#node-list-table-item-details). This is a tool for admin users or ScanReach to use during debugging or internal testing. We will break down the image into sections and explain each point in the list.
 
 <div class="img-container">
 <img src="./node-admin-images/mesh-debug-images/mesh-debug-tool-full.png" alt="Mesh debug tool"/>
