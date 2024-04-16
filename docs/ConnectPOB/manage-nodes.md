@@ -196,35 +196,35 @@ Opened by pressing the "Debug" button in the [Node List Table Item Details ( J )
 
 This is the BLE (Bluetooth Low Energy) Micro Controller Unit in the node that handles bluetooth communication between equpiment it detects (Wearables and bluetooth sensors). Time since updates every 3 minutes.
 
-|            List item            | Explanation                                                                                                           |
-| :-----------------------------: | :-------------------------------------------------------------------------------------------------------------------- |
-|          USB-Connected          | Is the node connceted to a instrument with a usb cable. True = yes, False = No.                                       |
-|        Battery Charging         | Is the battery charging. True = yes, False = no.                                                                      |
-|           Temperature           | The temperature the node is registering at its placed location.                                                       |
-|             Voltage             | The internal voltage of the node.                                                                                     |
-|             Uptime              | How long the MCU have been on since last reset.                                                                       |
-|           Parent Rssi           | Signal strength to parent node in desibel. This value will alway be minus. Rssi (Received Signal Strength Indicator). |
-|          Node Version           | What version is the firmware in the node running. This should be the same as Node data 2.                             |
-|           BLE Version           | What BLE version is the node running. This should be the same as Node data 2.                                         |
-|         NordicOutOfSec          | Number of lost inter-SOC messages.                                                                                    |
-|       Buffers full-count        | Number of times mem_alloc() was called and no buffers was available.                                                  |
-|        Queue Full-count         | Number of times the queue was full when trying to add a message.                                                      |
+| List item                       | Explanation                                                                                                           |
+| :------------------------------ | :-------------------------------------------------------------------------------------------------------------------- |
+| USB-Connected                   | Is the node connceted to a instrument with a usb cable. True = yes, False = No.                                       |
+| Battery Charging                | Is the battery charging. True = yes, False = no.                                                                      |
+| Temperature                     | The temperature the node is registering at its placed location.                                                       |
+| Voltage                         | The internal voltage of the node.                                                                                     |
+| Uptime                          | How long the MCU have been on since last reset.                                                                       |
+| Parent Rssi                     | Signal strength to parent node in desibel. This value will alway be minus. Rssi (Received Signal Strength Indicator). |
+| Node Version                    | What version is the firmware in the node running. This should be the same as Node data 2.                             |
+| BLE Version                     | What BLE version is the node running. This should be the same as Node data 2.                                         |
+| NordicOutOfSec                  | Number of lost inter-SOC messages.                                                                                    |
+| Buffers full-count              | Number of times mem_alloc() was called and no buffers was available.                                                  |
+| Queue Full-count                | Number of times the queue was full when trying to add a message.                                                      |
 | Lowest No. Of Buffers Available | Number of lowest buffers available ever reached.                                                                      |
-|        NordicCRCErrCount        | Number of times a CRC error have occurred on the serial interface.                                                    |
+| NordicCRCErrCount               | Number of times a CRC error have occurred on the serial interface.                                                    |
 
 #### MDT - Node data 2
 
 This is the Mesh Micro Controller Unit. This is the chip in the node that handles the communication between nodes. Time since updates every 3 minutes.
 
-|     List item     | Explanation                                                                                          |
-| :---------------: | :--------------------------------------------------------------------------------------------------- |
-|     Udpseqno      | UDP (User Datagram Protocol) sequence number.                                                        |
-|      Uptime       | The time since last reset.                                                                           |
-|    NodeVersion    | What version is the firmware in the node running. This should be the same as Node data 1.            |
-|    BLEVersion     | What BLE (Bluetooth Low Energy) version is the node running. This should be the same as Node data 1. |
-|  Reset attempts   | How many times the chip has tried to reset itself when it could not connect to borderrouter.         |
-|   Summary count   | How many times the OTA Summary message has been received.                                            |
-|  SecSinceSummary  | Seconds since last received OTA Summary message.                                                     |
+| List item         | Explanation                                                                                          |
+| :---------------- | :--------------------------------------------------------------------------------------------------- |
+| Udpseqno          | UDP (User Datagram Protocol) sequence number.                                                        |
+| Uptime            | The time since last reset.                                                                           |
+| NodeVersion       | What version is the firmware in the node running. This should be the same as Node data 1.            |
+| BLEVersion        | What BLE (Bluetooth Low Energy) version is the node running. This should be the same as Node data 1. |
+| Reset attempts    | How many times the chip has tried to reset itself when it could not connect to borderrouter.         |
+| Summary count     | How many times the OTA Summary message has been received.                                            |
+| SecSinceSummary   | Seconds since last received OTA Summary message.                                                     |
 | BS build-version  | Mesh MCU Bootstrapper version.                                                                       |
 | OTA build version | Mesh MCU OTA version.                                                                                |
 | RPL build-version | Mesh MCU Application version.                                                                        |
@@ -233,9 +233,9 @@ This is the Mesh Micro Controller Unit. This is the chip in the node that handle
 
 Number of nodes this nodes sees around itself. Time since updates every 15 minutes.
 
-|   List item    | Explanation                                                                                                                                                             |
-| :------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   Neighbours   | How many other nodes this node registeres near itself. These are nodes that this node receives signal from and could therefore be part of the data flow to the gateway. |
+| List item      | Explanation                                                                                                                                                             |
+| :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Neighbours     | How many other nodes this node registeres near itself. These are nodes that this node receives signal from and could therefore be part of the data flow to the gateway. |
 | SequenceNumber | The currenct sequence number for the communication with neighbouring nodes.                                                                                             |
 
 #### MDT - Parent Data
@@ -243,12 +243,12 @@ Number of nodes this nodes sees around itself. Time since updates every 15 minut
 What node this node uses as preferred parent node. Time since updates every 30 minutes.
 
 | List item  | Explanation                     |
-| :--------: | :------------------------------ |
+| :--------- | :------------------------------ |
 | Parent Mac | Mac address of the parent node. |
 
 #### MDT - Reset Data
 
 When was this node last reset??.....
 | List item | Explanation |
-| :--------: | :------------------------------ |
+| :-------- | :------------------------------ |
 | Reset Data | ?????? |
