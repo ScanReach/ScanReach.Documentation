@@ -65,7 +65,7 @@ Shows a line to the children of the node. A node can have several children.
 
 ### Showing node neighbours
 
-Shows a line to all the neighbours of a node and the signal strength to each node in desibel. This is nodes that the selected node detects and could communicate with as children or parents.
+Shows a line to the 10 neighbours with best signal of a node and the signal strength to each node. These nodes are the possible parents or children of the selected node.
 
 ## Node list
 
