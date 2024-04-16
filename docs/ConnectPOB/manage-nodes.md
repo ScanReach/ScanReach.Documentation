@@ -69,7 +69,7 @@ Shows a line to the 10 neighbours with best signal of a node and the signal stre
 
 ## Node list
 
-Shows all nodes distrubted between, Nodes located in the map and Nodes not in map.
+Shows all nodes placed in map, and not placed in map.
 
 <div class="img-container">
 <img src="./node-admin-images/node-admin-table.png" alt="Node Admin Table"/>
