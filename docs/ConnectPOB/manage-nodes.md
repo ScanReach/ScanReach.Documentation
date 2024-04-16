@@ -175,7 +175,7 @@ Opened by pressing the "Manag" button in the Node List Table Item Details [I](#n
 
 ## Mesh Debug Tool (MDT)
 
-Opened by pressing the "Debug" button in the Node List Table Item Details [(J)](#node-list-table-item-details). This is a tool for admin users or ScanReach to use during fault searching or developing. We will break down the image into sections and explain each point in the list.
+Opened by pressing the "Debug" button in the Node List Table Item Details [(J)](#node-list-table-item-details). This is a tool for admin users or ScanReach to use during debugging or internal testing. We will break down the image into sections and explain each point in the list.
 
 <div class="img-container">
 <img src="./node-admin-images/mesh-debug-images/mesh-debug-tool-full.png" alt="Mesh debug tool"/>
