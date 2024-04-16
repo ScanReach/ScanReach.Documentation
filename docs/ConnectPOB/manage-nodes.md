@@ -1,9 +1,5 @@
 # Manage Nodes
 
-::: warning
-Page is work in progress
-:::
-
 NodeAdmin show all nodes in a table and where they are placed on the map. This is also where it is possible to set up a node as Muster station and Muster station with muster box
 
 <div class="img-container">
