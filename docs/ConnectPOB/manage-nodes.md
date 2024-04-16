@@ -63,6 +63,10 @@ Shows a line to the children of the node. A node can have several children.
 
 Shows a line to the 10 neighbours with best signal of a node and the signal strength to each node. These nodes are the possible parents or children of the selected node.
 
+<div class="img-container">
+<img src="./node-admin-images/map-images/map-neighbours.png" alt="Showing node with node links to neighbours"/>
+</div>
+
 ## Node list
 
 Shows all nodes placed in map, and not placed in map.
