@@ -48,7 +48,7 @@ It is possible to select how to view the node links in the map.
 Shows a line from the selected node to its parent. It will also show the path if there is grand parents, great grand parents etc. until it gets to the root node which is communicating with the gateway. It is a good tool to see what nodes are depending on others to be able to perform their task.
 
 <div class="img-container">
-<img src="./node-admin-images/map-images/map-parent.png" alt="Showing node with node links to neighbouring nodes and signal strength"/>
+<img src="./node-admin-images/map-images/map-parents.png" alt="Showing node with node links to neighbouring nodes and signal strength"/>
 </div>
 
 ### Showing node children
