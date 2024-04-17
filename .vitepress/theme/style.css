@@ -215,8 +215,15 @@ img {
   max-width: 150px;
 }
 
+.list-img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .list-with-extra-padding {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  text-align: left;
 }
 
 .icon-color-alert {
