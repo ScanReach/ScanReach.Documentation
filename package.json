@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "@documate/vue": "^0.3.1",
-    "vue": "^3.3.9"
+    "vue": "^3.4.22"
   },
   "devDependencies": {
     "@documate/documate": "^0.2.1",
-    "vitepress": "^1.0.0-rc.31"
+    "vitepress": "^1.1.0"
   }
 }

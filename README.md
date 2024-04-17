@@ -26,6 +26,10 @@ Vitepress docs: https://vitepress.dev/guide/what-is-vitepress
 
 All files are located in the `docs` folder
 
+### Toggle word wrap for easier editing:
+
+- In VSCode: `View -> Toggle Word Wrap`
+
 ## Show new file in sidebar:
 
 Open `.vitepress/config.mts` and add the file to the `sidebar` array in appropriate place
