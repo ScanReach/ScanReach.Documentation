@@ -56,13 +56,66 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "Introduction", link: "/docs/OWC/introduction" },
-        // { text: "Runtime API Examples", link: "/docs/api-examples" },
         {
-          text: "API",
+          text: "Installation",
           items: [
             {
-              text: "API Getting Started",
-              link: "/docs/OWC/api/api-getting-started",
+              text: "Installation Overview",
+              link: "/docs/OWC/installation/installation-overview",
+            },
+            {
+              text: "Installation Guide",
+              link: "/docs/OWC/installation/installation-guide",
+            },
+            {
+              text: "Installation Checklist",
+              link: "/docs/OWC/installation/installation-checklist",
+            },
+          ],
+        },
+        {
+          text: "Configuration",
+          items: [
+            {
+              text: "Configuration Overview",
+              link: "/docs/OWC/configuration/configuration-overview",
+            },
+            {
+              text: "Configuration Guide",
+              items: [
+                {
+                  text: "User Configuration",
+                  link: "/docs/OWC/configuration/user-configuration",
+                },
+                {
+                  text: "Node Configuration",
+                  link: "/docs/OWC/configuration/node-configuration",
+                },
+                {
+                  text: "Gangway Configuration",
+                  link: "/docs/OWC/configuration/gangway-configuration",
+                },
+                {
+                  text: "Bunk Setup",
+                  link: "/docs/OWC/configuration/bunk-setup",
+                },
+                {
+                  text: "Wearable Assignment",
+                  link: "/docs/OWC/configuration/wearable-assignment",
+                },
+                {
+                  text: "Sensor Configuration",
+                  link: "/docs/OWC/configuration/sensor-configuration",
+                },
+                {
+                  text: "Alarm Configuration",
+                  link: "/docs/OWC/configuration/alarm-configuration",
+                },
+                {
+                  text: "Dashboard Configuration",
+                  link: "/docs/OWC/configuration/dashboard-configuration",
+                },
+              ],
             },
           ],
         },
@@ -70,46 +123,150 @@ function sidebar(): DefaultTheme.SidebarItem[] {
     },
     {
       text: "ConnectPOB",
-      collapsed: false,
+      collapsed: true,
       docFooterText: "ConnectPOB",
       items: [
         {
-          text: "ConnectPOB Introduction",
-          link: "/docs/ConnectPOB/introduction",
+          text: "Introduction",
+          items: [
+            {
+              text: "Intro",
+              link: "/docs/ConnectPOB/introduction/connectPOB-introduction",
+            },
+            {
+              text: "For The Crew Member",
+              link: "/docs/ConnectPOB/introduction/for-the-crew-member",
+            },
+            {
+              text: "How ConnectPOB Works",
+              link: "/docs/ConnectPOB/introduction/how-connectPOB-works",
+            },
+            {
+              text: "Functionality",
+              link: "/docs/ConnectPOB/introduction/functionality",
+            },
+          ],
         },
         {
-          text: "Handling of information",
-          link: "/docs/ConnectPOB/handling-of-information",
+          text: "Pages",
+          items: [
+            {
+              text: "Safety Page",
+              link: "/docs/ConnectPOB/pages/safety-page",
+            },
+            {
+              text: "System Status Page",
+              link: "/docs/ConnectPOB/pages/system-status-page",
+            },
+            {
+              text: "People Admin Page",
+              link: "/docs/ConnectPOB/pages/people-admin-page",
+            },
+            {
+              text: "Gangway Page",
+              link: "/docs/ConnectPOB/pages/gangway-page",
+            },
+            {
+              text: "Bunk Admin Page",
+              link: "/docs/ConnectPOB/pages/bunk-admin-page",
+            },
+            {
+              text: "Wearables Admin Page",
+              link: "/docs/ConnectPOB/pages/wearables-admin-page",
+            },
+            {
+              text: "Node Admin Page",
+              link: "/docs/ConnectPOB/pages/node-admin-page",
+            },
+            {
+              text: "User Admin Page",
+              link: "/docs/ConnectPOB/pages/user-admin-page",
+            },
+          ],
         },
-        {
-          text: "Personnel administration",
-          link: "/docs/ConnectPOB/personnel-administration",
-        },
-        {
-          text: "Mustering",
-          link: "/docs/ConnectPOB/mustering",
-        },
-        {
-          text: "Manage Nodes",
-          link: "/docs/ConnectPOB/manage-nodes",
-        },
-        // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
     },
     {
       text: "ConnectFleet",
-      collapsed: false,
+      collapsed: true,
       items: [
         {
           text: "ConnectFleet Introduction",
           link: "/docs/ConnectFleet/introduction",
         },
-        // { text: "Runtime API Examples", link: "/docs/api-examples" },
+      ],
+    },
+    {
+      text: "ConnectFuel",
+      collapsed: true,
+      items: [
+        {
+          text: "Introduction",
+          items: [
+            {
+              text: "ConnectFuel Introduction",
+              link: "/docs/ConnectFuel/Introduction/connectFuel-introduction",
+            },
+            {
+              text: "For The User",
+              link: "/docs/ConnectFuel/Introduction/for-the-user",
+            },
+            {
+              text: "How ConnectFuel Works",
+              link: "/docs/ConnectFuel/Introduction/how-connectFuel-works",
+            },
+            {
+              text: "Data Security",
+              link: "/docs/ConnectFuel/Introduction/data-security-and-integrity",
+            },
+            {
+              text: "Integration",
+              link: "/docs/ConnectFuel/Introduction/Integration-with-vessel-operations",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      text: "ConnectCCM",
+      collapsed: true,
+      items: [
+        {
+          text: "ConnectCCM Introduction",
+          link: "/docs/ConnectCCM/introduction",
+        },
+      ],
+    },
+    {
+      text: "ConnectData",
+      collapsed: true,
+      items: [
+        {
+          text: "ConnectData Introduction",
+          link: "/docs/ConnectData/connectdata-introduction",
+        },
+        {
+          text: "ConnectData API",
+          items: [
+            {
+              text: "API Getting Started",
+              link: "/docs/ConnectData/api/api-getting-started",
+            },
+            {
+              text: "API Reference",
+              link: "/docs/ConnectData/api/api-reference",
+            },
+            {
+              text: "API Examples",
+              link: "/docs/ConnectData/api/api-examples",
+            },
+          ],
+        },
       ],
     },
     {
       text: "How to guides",
-      collapsed: false,
+      collapsed: true,
       items: [
         {
           text: "Introduction",
@@ -120,6 +277,35 @@ function sidebar(): DefaultTheme.SidebarItem[] {
           link: "/docs/How-to-guides/generic-dashboard",
         },
         // { text: "Runtime API Examples", link: "/docs/api-examples" },
+      ],
+    },
+    {
+      text: "Release Notes",
+      collapsed: true,
+      items: [
+        {
+          text: "Systems",
+          items: [
+            {
+              text: "ConnectPOB Release Notes",
+              link: "/docs/release-notes/connectPOB-release-notes",
+            },
+            {
+              text: "Connect Release Notes",
+              link: "/docs/release-notes/connect-release-notes",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      text: "FAQ",
+      collapsed: true,
+      items: [
+        {
+          text: "Frequently Asked Questions",
+          link: "/docs/Faq/FAQ",
+        },
       ],
     },
   ];

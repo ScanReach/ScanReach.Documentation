@@ -1,8 +1,6 @@
-# ConnectPOB Introduction
+# Functionality
 
-## Functionality
-
-### Instant overview of approximate location
+## Instant overview of approximate location
 
 ConnectPOB gives an instant overview of onboard personnel, allowing immediate and high-precision rescue team involvement. It
 includes a setup of hardware devices, a computer and a virtual dashboard listed and explained below:
@@ -13,7 +11,7 @@ includes a setup of hardware devices, a computer and a virtual dashboard listed 
 - Dashboard, easily accessible on existing screens on the bridge
 - Safety and alarm tablet
 
-### Functional criteria
+## Functional criteria
 
 ConnectPOB has some criteria to secure full-time functionality, described thoroughly in the user manual. The basic requirements for
 installing and running the system are as follows:
