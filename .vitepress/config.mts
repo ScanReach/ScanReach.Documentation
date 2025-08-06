@@ -293,8 +293,41 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         {
+          text: "Introduction",
+          link: "/docs/Faq/faq-introduction",
+        },
+        {
           text: "Frequently Asked Questions",
-          link: "/docs/Faq/FAQ",
+          items: [
+            {
+              text: "General",
+              link: "/docs/Faq/general-faq",
+            },
+            {
+              text: "Troubleshooting",
+              link: "/docs/Faq/troubleshooting-faq",
+            },
+            {
+              text: "Data and Monitoring",
+              link: "/docs/Faq/data-and-monitoring-faq",
+            },
+            {
+              text: "Hardware and Installation",
+              link: "/docs/Faq/hardware-and-installation-faq",
+            },
+            {
+              text: "Product Usage and Operations",
+              link: "/docs/Faq/product-usage-and-operations-faq",
+            },
+            {
+              text: "Support and Maintenance",
+              link: "/docs/Faq/support-and-maintenance-faq",
+            },
+            {
+              text: "System Administration",
+              link: "/docs/Faq/system-administration-faq",
+            },
+          ],
         },
       ],
     },
