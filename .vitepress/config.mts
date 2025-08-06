@@ -276,7 +276,6 @@ function sidebar(): DefaultTheme.SidebarItem[] {
           text: "Generic dashboard setup",
           link: "/docs/How-to-guides/generic-dashboard",
         },
-        // { text: "Runtime API Examples", link: "/docs/api-examples" },
       ],
     },
     {
@@ -284,17 +283,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         {
-          text: "Systems",
-          items: [
-            {
-              text: "ConnectPOB Release Notes",
-              link: "/docs/release-notes/connectPOB-release-notes",
-            },
-            {
-              text: "Connect Release Notes",
-              link: "/docs/release-notes/connect-release-notes",
-            },
-          ],
+          text: "Notes",
+          link: "/docs/Release-notes/release-notes",
         },
       ],
     },
