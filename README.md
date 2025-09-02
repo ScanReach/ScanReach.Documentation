@@ -8,6 +8,9 @@ Download the required model
 Ask the docs
 `docker exec -it scanreachdocumentation-doc-chat-1 python chat_server.py`
 
+<img width="876" height="266" alt="image" src="https://github.com/user-attachments/assets/bb504760-d672-41e1-a1d0-f7c80d96b26a" />
+
+
 # ScanReach.Docs
 
 A modern user manual written as a website using raw Markdown and Vitepress.
