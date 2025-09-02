@@ -29,7 +29,7 @@ Answer based only on the documentation provided:"""
     
     try:
         response = ollama.generate(
-            model='qwen2.5:0.5b',  # Small LLM for chat responses
+            model='gemma:2b',  # Small LLM for chat responses
             prompt=prompt,
             stream=False
         )

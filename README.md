@@ -1,3 +1,13 @@
+# AI Testing fun,
+
+`docker compose up -d`
+
+Download the required model
+`docker exec -it scanreachdocumentation-ollama-1 ollama pull gemma:2b`
+
+Ask the docs
+`docker exec -it scanreachdocumentation-doc-chat-1 python chat_server.py`
+
 # ScanReach.Docs
 
 A modern user manual written as a website using raw Markdown and Vitepress.
