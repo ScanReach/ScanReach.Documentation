@@ -2,7 +2,7 @@
 
 ## Your Role in the ConnectFuel System
 
-As a Captain or Bridge Officer, you play a crucial role in leveraging ConnectFuel for vessel operations:
+As a user, you play a crucial role in leveraging ConnectFuel for vessel operations:
 
 ### Strategic Decision-Making
 

@@ -1,8 +1,8 @@
-# Information to the crew member
+# Information to the user
 
 ## Your Role in the ConnectPOB System
 
-As a crew member, you play a crucial role in the effective operation of ConnectPOB:
+As a user, you play a crucial role in the effective operation of ConnectPOB:
 
 ### Daily Responsibilities
 
@@ -25,7 +25,7 @@ As a crew member, you play a crucial role in the effective operation of ConnectP
 
 ## Why ConnectPOB Matters to You
 
-As a crew member, ConnectPOB directly impacts your safety and operational efficiency:
+As a user, ConnectPOB directly impacts your safety and operational efficiency:
 
 ### Enhanced Safety
 
@@ -49,6 +49,6 @@ As a crew member, ConnectPOB directly impacts your safety and operational effici
 
 ## Your Safety is Our Priority
 
-ConnectPOB is designed with one primary goal: to enhance the safety and security of everyone onboard your vessel. By understanding and properly using this system, you contribute to a safer working environment for yourself and your fellow crew members.
+ConnectPOB is designed with one primary goal: to enhance the safety and security of everyone onboard your vessel. By understanding and properly using this system, you contribute to a safer working environment for yourself and your fellow users.
 
 Thank you for taking the time to learn about ConnectPOB. Your commitment to safety and proper system usage is essential to making your vessel a safer place to work and live.

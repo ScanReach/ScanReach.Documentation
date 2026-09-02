@@ -53,6 +53,5 @@ Browse our FAQ categories or ask our AI to find answers to your questions:
 If you can't find the answer to your question in our FAQ categories, please contact our technical support team:
 
 - **Email**: support@scanreach.com
-- **Phone**: +47 414 96 500 (24/7 support)
 
 When contacting support, please include relevant system information and error messages to help us assist you more effectively.

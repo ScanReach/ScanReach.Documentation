@@ -134,16 +134,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
               link: "/docs/ConnectPOB/introduction/connectPOB-introduction",
             },
             {
-              text: "For The Crew Member",
-              link: "/docs/ConnectPOB/introduction/for-the-crew-member",
-            },
-            {
-              text: "How ConnectPOB Works",
-              link: "/docs/ConnectPOB/introduction/how-connectPOB-works",
-            },
-            {
-              text: "Functionality",
-              link: "/docs/ConnectPOB/introduction/functionality",
+              text: "For The User",
+              link: "/docs/ConnectPOB/introduction/for-the-user",
             },
           ],
         },
@@ -301,31 +293,36 @@ function sidebar(): DefaultTheme.SidebarItem[] {
           items: [
             {
               text: "General",
-              link: "/docs/Faq/general-faq",
-            },
-            {
-              text: "Troubleshooting",
-              link: "/docs/Faq/troubleshooting-faq",
-            },
-            {
-              text: "Data and Monitoring",
-              link: "/docs/Faq/data-and-monitoring-faq",
-            },
-            {
-              text: "Hardware and Installation",
-              link: "/docs/Faq/hardware-and-installation-faq",
-            },
-            {
-              text: "Product Usage and Operations",
-              link: "/docs/Faq/product-usage-and-operations-faq",
-            },
-            {
-              text: "Support and Maintenance",
-              link: "/docs/Faq/support-and-maintenance-faq",
+              link: "/docs/Faq/faqs/general-faq",
             },
             {
               text: "System Administration",
-              link: "/docs/Faq/system-administration-faq",
+              link: "/docs/Faq/faqs/system-administration-faq",
+            },
+            {
+              text: "Product Usage and Operations",
+              link: "/docs/Faq/faqs/product-usage-and-operations-faq",
+            },
+            {
+              text: "Data and Monitoring",
+              link: "/docs/Faq/faqs/data-and-monitoring-faq",
+            },
+            {
+              text: "Hardware",
+              link: "/docs/Faq/faqs/hardware-faq",
+            },
+            {
+              text: "Support and Maintenance",
+              link: "/docs/Faq/faqs/support-and-maintenance-faq",
+            },
+          ],
+        },
+        {
+          text: "Troubleshooting",
+          items: [
+            {
+              text: "ConnectPOB",
+              link: "/docs/Faq/troubleshooting/connectPOB-troubleshooting-faq",
             },
           ],
         },
