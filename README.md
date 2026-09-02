@@ -33,3 +33,28 @@ All files are located in the `docs` folder
 ## Show new file in sidebar:
 
 Open `.vitepress/config.mts` and add the file to the `sidebar` array in appropriate place
+
+## Adding New FAQ Entries
+
+To add new FAQ entries to this page:
+
+1. **Choose the appropriate category** or create a new one if needed
+2. **Add a new `<details>` block** under the relevant category heading
+3. **Use this template:**
+
+```html
+<details>
+  <summary>Your question here?</summary>
+
+  Your detailed answer here. You can include: - Lists and bullet points - [Links
+  to other documentation](/docs/page-name) - Code snippets - Multiple paragraphs
+</details>
+```
+
+### Writing Guidelines:
+
+- Keep questions concise and specific
+- Provide actionable answers with clear steps
+- Link to relevant documentation pages when appropriate
+- Use consistent formatting and language
+- Test any code examples or procedures before adding them

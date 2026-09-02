@@ -138,6 +138,60 @@
 }
 
 /**
+ * Navigation and Button overrides
+ * -------------------------------------------------------------------------- */
+
+/* VitePress navigation buttons (including Ask AI button) */
+.VPNavBarExtra .VPButton,
+.VPNavBar .VPButton,
+.VPSocialLink,
+button[aria-label*="AI"],
+button[aria-label*="ai"],
+.vp-button,
+.VPButton {
+  color: var(--vp-c-text-1) !important;
+  background-color: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-border) !important;
+}
+
+.VPNavBarExtra .VPButton:hover,
+.VPNavBar .VPButton:hover,
+.VPSocialLink:hover,
+button[aria-label*="AI"]:hover,
+button[aria-label*="ai"]:hover,
+.vp-button:hover,
+.VPButton:hover {
+  color: var(--vp-c-brand-1) !important;
+  background-color: var(--vp-c-bg-elv) !important;
+  border-color: var(--vp-c-brand-2) !important;
+}
+
+/* Dark theme overrides for navigation buttons */
+.dark .VPNavBarExtra .VPButton,
+.dark .VPNavBar .VPButton,
+.dark .VPSocialLink,
+.dark button[aria-label*="AI"],
+.dark button[aria-label*="ai"],
+.dark .vp-button,
+.dark .VPButton {
+  color: var(--vp-c-text-1) !important;
+  background-color: var(--vp-c-bg-soft) !important;
+  border-color: var(--vp-c-border) !important;
+}
+
+.dark .VPNavBarExtra .VPButton:hover,
+.dark .VPNavBar .VPButton:hover,
+.dark .VPSocialLink:hover,
+.dark button[aria-label*="AI"]:hover,
+.dark button[aria-label*="ai"]:hover,
+.dark .vp-button:hover,
+.dark .VPButton:hover {
+  color: var(--vp-c-brand-1) !important;
+  background-color: var(--vp-c-bg-elv) !important;
+  border-color: var(--vp-c-brand-2) !important;
+}
+
+/**
  * System colors
  * -------------------------------------------------------------------------- */
 
@@ -181,6 +235,54 @@
 
 img {
   object-fit: contain;
+}
+
+/* Details element - theme-aware styling */
+details {
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 6px;
+  padding: 2px 0px 8px 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+details summary {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+details[open] summary,
+details:hover summary {
+  font-weight: bold;
+  color: var(--vp-c-brand-1);
+}
+
+details:hover summary {
+  text-decoration: underline;
+}
+
+details:hover {
+  background-color: var(--vp-c-bg-elv);
+  border-color: var(--vp-c-brand-2);
+}
+
+/* Dark theme specific overrides */
+.dark details {
+  background-color: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-border);
+}
+
+.dark details[open] summary,
+.dark details:hover summary {
+  color: var(--vp-c-brand-1);
+}
+
+.dark details:hover {
+  background-color: var(--vp-c-bg-elv);
+  border-color: var(--vp-c-brand-2);
 }
 
 .img-container {
@@ -228,4 +330,57 @@ img {
 
 .icon-color-alert {
   color: var(--color-status-alert);
+}
+
+.faq_links_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.faq_links {
+  border: 2px solid var(--vp-c-border);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
+}
+
+.faq_links h3 {
+  margin: 0 0 12px 0;
+  color: var(--vp-c-text-1);
+}
+
+.faq_links p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+}
+
+.faq_links:hover {
+  border-color: var(--vp-c-brand-2);
+  background: var(--vp-c-bg-alt);
+}
+
+/* Dark theme overrides for FAQ cards */
+.dark .faq_links {
+  border-color: var(--color-brand-03);
+  color: var(--color-base-white);
+  background: var(--color-ui-06);
+}
+
+.dark .faq_links h3 {
+  color: var(--color-base-white);
+}
+
+.dark .faq_links p {
+  color: var(--color-brand-01);
+}
+
+.dark .faq_links:hover {
+  border-color: var(--color-brand-01);
+  background: var(--color-ui-03);
 }
